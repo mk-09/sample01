@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+* {
+    color:#2F496E;
+    font-family: 'A-OTF UD新ゴ Pr6N', sans-serif;
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+a {   
+    text-decoration: none;
+    color: #ED8C72;    
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+body{
+    background-color:#F4EADE;    
+}
+
+h1 {
+    font-family: '源ノ角ゴシック JP';
+}
+
+/* ヘッダー、メニュー周り */
+
+header {     
+    background: linear-gradient(to top,#F4EADE, white); 
+
+}
+
+.h-wrapper{
+    width:1000px;
+    text-align: center;
+    padding:50px 0 30px;
+}
+
+.menu {
+    display: flex;
+    margin:50px 35px 0;
+}
+.menu-list {
+    display:flex;
+
+}
+
+.menu-list li{
+    text-align: center;
+    margin-right: 55px;
+}
+
+.menu-list a{
+    line-height: 15px;
+    font-weight: bold;
+    font-size:18px;
+    font-family: '凸版文久見出しゴシック StdN';
+    
+}
+.menu-list a:hover{
+    opacity:0.5;
+}
+
+.menu-list span{
+    font-size: 14px;
+    color:#2988BC;
+    font-weight:normal;
+}
+
+.signup {
+    display:flex;
+    margin-left: auto;
+}
+
+.signup a {
+    font-weight: bold;
+    font-size:16px;
+    font-family: '凸版文久見出しゴシック StdN';
+}
+
+.btn {
+    background-color:#fff;
+    border: 1px solid #ED8C72;
+    font-size: 16px;
+    border-radius: 3px;
+    width:93px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color:#ED8C72;
+    margin-left:10px;
+}
+
+.login a{
+    color: #fff;
+}
+
+
+
+
+/* CATEGORY */
+.category{
+    width:1000px;
+    margin-top:130px;
+    text-align:center;
+    position:relative;
+}
+
+.birdmsg{
+    position:absolute; 
+    left:730px;
+    top:0; 
+}
+
+.s-container{
+    margin-top:90px;
+}
+
+/* 検索フォーム */
+
+#form2{
+    margin: 0 auto;
+    position:relative;
+    width:390px;
+    height:45px;	
+    }
+
+#sbox2{
+    width:390px;
+    height:45px;
+    padding:0 10px; 
+    position:absolute; 
+    left:0;
+    top:0; 
+    border-radius:10px;
+    outline:0;
+    background:#fff;
+    border: 1px solid #ED8C72;	
+        }
+
+#sbtn2{
+    height:50px;
+    position:absolute; 
+    left:380px;/*アイコン左右の位置調整*/
+    top:0;
+    background:none;
+    color:#2F496E;
+    border:none;
+    font-size:23px;/*アイコンサイズ*/
+    }
+
+.fa-search:hover{
+    color:#ED8C72;
+    }
+
+
+.c-registe{
+    margin:60px 0;
+}
+
+
+/* 講座一覧 */
+
+.course {
+    background-color: #2988BC;
+    height: 333px;
+}
+
+.course-items{
+    width:930px;
+    height:333px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align:center;
+    margin:0 35px;
+    flex-wrap : wrap;
+}
+
+.course-items h2{
+    color: #F4EADE;
+    font-family: '源ノ角ゴシック JP'; 
+    font-size:20px;
+    margin-bottom: 15px;
+}
+
+.item-box{
+    position:relative;
+    
+}
+
+
+.item {
+    width: 175px;
+    height:175px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.mark{
+    z-index: 20;
+    position:absolute; 
+    left:130px;
+    bottom:155px; 
+}
+
+
+/* ならいことりとは？ */
+.service {
+    width: 1000px;
+    margin: 130px 0;
+    text-align:center;
+}
+
+.service h1 {
+    font-size: 24px; 
+}
+
+.service p{
+    margin:35px 0 75px;
+    font-family: 游ゴシック;
+    font-size: 17px;
+}
+
+/* どうしたらいいの？ */
+
+.guide{
+    width:1000px;
+    text-align:center;
+}
+
+.guide-items {
+    width: 695px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.guide p{
+    margin:35px 0 75px;
+    font-family: 游ゴシック;
+    font-size: 17px;
+}
+
+
+/* footer */
+
+footer{
+    margin-top:75px;
+    background-color:#2F496E;
+    
+    
+}
+
+footer h3{
+    color:#F4EADE;
+    font-family: '源ノ角ゴシック JP'; 
+    font-size:16px;
+}
+
+footer p{
+    color:#2988BC;
+}
+
+.copywriter{
+    margin: 75px 0 40px;
+}
+
+.f-wrapper{
+    padding:75px 0 35px;
+    width:1000px;
+    height:357px;
+    text-align:center;
+    
+}
+
+.sitemap-list{
+    display: flex;
+    justify-content: center;
+}
+
+.sitemap li{
+    display: block;
+    text-align: center;
+}
+
+.sitemap p{
+    margin:0 15px;
+    font-size: 16px;
+    color:#ED8C72;
+    
+}
+.sitemap a{
+    font-size:16px;
+}
+
+
+.company{
+    margin: 30px 0 50px;
+
+}
+.sns-list{
+    display:flex;
+    justify-content: center;
+}
+
+.sns li {
+    display: block;
+    
+}
+
+.fab{
+    color:#ED8C72;
+    font-size: 30px;
+    margin: 0  15px;
+}
+
+.fas{
+    color:#ED8C72;
+    font-size: 30px;
+}
+
+/***追従するトップへ戻るボタン***/
+#page-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 10px;
+}
+/***トップへ戻るボタンここまで***/
